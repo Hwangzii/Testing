@@ -1,0 +1,4277 @@
+{
+  "id": "21cabcff-9f39-4910-b5cd-c47442d48b28",
+  "version": "2.0",
+  "name": "Shoppe",
+  "url": "https://shopee.vn/",
+  "tests": [{
+    "id": "d86fd3d0-0941-4db5-952f-42f2b3c242a9",
+    "name": "Module1-7",
+    "commands": [{
+      "id": "289c484f-dfe7-4828-befd-248a67054138",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "076a2494-fc74-4006-b552-c340798d8f2b",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.hww4XZ .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53efe09d-b153-444d-aac7-e0f183dc561f",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "a74f2c57-510c-4312-87a8-64da729e25c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5c72b6-108c-4c04-a7b8-7a9562cd792c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f747eddf-8c7c-4155-9b9d-6e79405a0c4f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc"
+    }, {
+      "id": "7e5a778c-c850-4fa6-8f4e-2a66e74ac5dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e6ad169-27ab-4bb2-9478-7d7740c1b257",
+    "name": "Module1-1",
+    "commands": [{
+      "id": "95e66c90-f5c5-461f-815a-e1f8de3f816a",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c5cf50b-dbd1-4f1d-88fe-3197f2468300",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "b7371581-07c9-4bd2-af4e-000005172cbb",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "0a07b708-b1cc-4f5a-b703-0dcb675419d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d476809-567e-4332-924c-3b4d8a10d424",
+    "name": "Module2-a",
+    "commands": [{
+      "id": "503611f4-9937-42b4-86b0-10ca04b51275",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0189cb8-3f51-433d-850a-ce24492c1fe5",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "590dbb65-a30f-4586-bf79-368adc7d63b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f7ba9e8-9f73-43b9-abe5-f7cf183e163c",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "f09e0f9a-2ae0-4eb7-8124-69f4ed342bdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e295f1b-3910-48ef-836c-b3728090ddfd",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "f83814ea-c093-4f43-8a2c-e752e3a1fe0a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "b0e96424-e68d-4959-8cb5-36aa0ce1d0b1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "0e7d06f5-3687-4855-8636-e7d371670e23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c7dgix",
+      "targets": [
+        ["css=.c7dgix", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a30023-ac73-4c57-a473-a9a71e7c3f60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10dcb711-c807-4ded-bb00-49d0ff4adf31",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/forgot_password/?code=KWN32MCDiDlvsm6coidyHJ2yjEYrJsnlOkcMd1mPo5E%3D&email=locvnt02%40gmail.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02c70347-2baa-4817-9af8-4e0d9275a6a2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Loc123123"
+    }, {
+      "id": "f43e5088-89de-4d64-b89f-7009d74f0217",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d0899fe6-2d8c-4a9a-b6b2-395d3a466571",
+    "name": "Module2-3",
+    "commands": [{
+      "id": "c17eacaf-f02d-4702-b8af-23a4ae823b9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "096942ee-8f44-4344-98a3-221f008351e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "74609254-f790-413d-a3dd-af39eeab3f5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54cfd2b2-e2eb-4734-b6cd-7463f07df6a7",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "54a9c7d4-0320-41b0-a08c-1c49e0d74e67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ccc58ce-c1bb-4ee0-913a-81bcdfbc9060",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "b6d9f166-a2a7-473b-a525-1f2ae84475b7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "1a054fe8-3426-42d8-95b8-6acf2b979ddc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "c94195ce-cdd4-4350-ba5b-8de3e5f848fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f852d6fa-7d36-4d17-888f-aef8102e735a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eaf5017-602b-4d71-8602-884c362cc5b2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979301"
+    }, {
+      "id": "b1aac916-5a26-4147-82cb-c225d5f747da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc1ab6f-76af-461a-83f2-31eb6306c39f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84f3a0f8-f927-466e-9d24-b98a7f88b976",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc00c5cc-2a3c-4f57-b1bb-e7368a2c440b",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "1a9f9468-6952-49bc-a7b6-4f681a166653",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "74e8c5b7-1938-47b4-828d-9b36c04e060a",
+    "name": "Module3-1",
+    "commands": [{
+      "id": "46436be5-c33b-4f6b-bdb7-4794f13b1ef6",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4135bc70-deb4-4595-9dfc-362f66fe8350",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "4bd35e44-6b82-4407-847c-ab905456660e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "8702d822-95a1-467b-a1a5-2c2550a64f44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1b674d-d795-4dc3-b3a8-3d3db1a80808",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15999d49-9053-4b23-9fd3-5ca7c7ce454d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột máy tính"
+    }, {
+      "id": "28a6029e-2807-4083-a5a7-d560b112e74a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a16a468-1cb5-4826-aef2-0c547591b759",
+    "name": "Module4-1",
+    "commands": [{
+      "id": "48304dd8-c6c2-41f6-959d-34a522864857",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4f0b712-5837-4d9a-a24b-8cd411fc0373",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "47af7dd8-9021-4a1f-a498-ec2d6fab07f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "5fb62d90-b914-422d-8619-e20a0907c1cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0c8a3a-c903-433f-82fd-6cc2f0fcc7c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89ba04d-06b4-4e1d-8196-061b370b320f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột máy tính"
+    }, {
+      "id": "9327d53d-b281-4652-aee8-c2fc0b4c56c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8dd824c-3685-463e-9d17-5291daaa062c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-2-4:nth-child(1) .ifPo8g",
+      "targets": [
+        ["css=.col-xs-2-4:nth-child(1) .ifPo8g", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/ul/li/a/div/div", "xpath:idRelative"],
+        ["xpath=//section/ul/li/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c5c2c0-b651-472c-8489-9bf421fcabe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--l:nth-child(2)",
+      "targets": [
+        ["css=.btn--l:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[5]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b294d99-1fc5-4fea-ae27-e7fa26b9f83c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-plus-sign",
+      "targets": [
+        ["css=.icon-plus-sign", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "603d4d82-1a37-4960-a29c-68fd933561b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sApkZm:nth-child(1)",
+      "targets": [
+        ["css=.sApkZm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[4]/div/div[2]/div/section/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'G2 - Có âm - LED')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ecaa706-6eb9-4595-92f9-ce50c7698763",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--l:nth-child(2)",
+      "targets": [
+        ["css=.btn--l:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[5]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ba7d2e3-8bcb-4015-b986-c5f728cb6243",
+    "name": "Module4-3",
+    "commands": [{
+      "id": "c3548eee-e54d-4a25-8a6a-e60feb0bfda4",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/mall",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2ca2d469-40e7-4017-9fdd-e3bd0d43ff5a",
+    "name": "Module5-1",
+    "commands": [{
+      "id": "d5abf0ec-88aa-4d75-bcf2-bb7eac484f65",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fa97f33-3feb-40d4-baa7-58d12ba4e4fa",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "f1351efb-b913-4515-a7f2-5d6ce0b58233",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "2068da95-2d36-47d6-87fe-d7862157d0d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8c46bd1b-2f22-4b6c-bea8-c7e23944d0fb",
+    "name": "Module6-1",
+    "commands": [{
+      "id": "dfa99f9b-11ca-4373-a0c6-a37b6b722767",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41d60930-ca22-46c1-919d-5dcb71480c18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng Nhập",
+      "targets": [
+        ["linkText=Đăng Nhập", "linkText"],
+        ["css=.navbar__link--login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng Nhập')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/header/div/nav/ul/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/login?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng Nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df9d9f9-7cc6-4364-ad12-bdb4c719de78",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "a246c0ce-2aca-4c83-9bb5-4a014f74f9b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "4db4a2d2-692c-4ee8-981e-140f8c6f59fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a47a47-46d1-42f3-8717-d5cb3add3951",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.stardust-carousel__item:nth-child(2) .PBMrHv",
+      "targets": [
+        ["css=.stardust-carousel__item:nth-child(2) .PBMrHv", "css:finder"],
+        ["xpath=//img[@alt='Banner']", "xpath:img"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/ul/li[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e09002-53d3-4828-8aeb-ca865ef31c00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2df253b-06f7-492b-8f66-2aa76a5b0e13",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột máy tính"
+    }]
+  }, {
+    "id": "187d1ec1-d4aa-4bbc-abcd-f5d346b16196",
+    "name": "Module7-2",
+    "commands": [{
+      "id": "844ce9d2-4cb2-48d6-8874-8bb12df3acfc",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfd2ec84-680d-47fe-b40f-e6a4a8788ae3",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "9338b69a-1583-4cc7-a538-1da83f8e9bed",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "adbef5cc-2059-4301-aca7-3bc6ec5ade7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e395f40d-3f9e-4055-a9be-b6dc2179ad6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a471c793-48ce-4e8c-bc36-25d352889dfe",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột"
+    }, {
+      "id": "efdc7d3f-bbb9-4e7d-89b4-8608f6f97ff6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50d50fac-ae55-40fe-ae04-f1b66644ad31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sort-price-select",
+      "targets": [
+        ["css=.sort-price-select", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/fieldset/div[2]/section[2]/div/button", "xpath:idRelative"],
+        ["xpath=//section[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giá: Thấp đến Cao')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "767a6f3c-1923-498d-b73b-6c33f6744db1",
+    "name": "Module8-2",
+    "commands": [{
+      "id": "1829bb5e-e903-451b-bb5a-722b7882289f",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26d2094b-43cb-4d1a-a9c6-57ca3de689d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d702f2-d62c-45e1-81c2-a30cf3d60a4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cba6129-fa6d-4e0f-99db-4522f72ecde1",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "(+84) 936 614 892"
+    }, {
+      "id": "ebc52939-eec5-4afc-9e12-06750caad01c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ba5e7d-8522-4d75-9f93-9ddc9e7eef50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a9d7251-f523-40fd-8870-fc4397d1042c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='062833']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "062833"
+    }, {
+      "id": "4c1c6f5d-966b-44dd-8b1d-7ab881da33b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d5a1920-9b76-40d9-b786-a546a26e30fa",
+    "name": "Module8-5",
+    "commands": [{
+      "id": "bdcbd5e2-3098-4183-a376-cb2d551a2b94",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64afb68a-52bd-4e7d-a7c1-853a9d10b1b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b5361a-b36d-4037-823e-6c41bd7bda80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz6RR4:nth-child(2) > .zwXUkg",
+      "targets": [
+        ["css=.Bz6RR4:nth-child(2) > .zwXUkg", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1767",
+      "windowTimeout": 2000
+    }, {
+      "id": "1d7a74c9-400c-4b67-9f36-3cf607171a6a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "044e9895-5beb-4367-a0ba-35a8895a0a7f",
+      "comment": "",
+      "command": "type",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64e832e8-61bf-4340-98cf-b7636d263728",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1767}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad8dfeaa-e447-41c5-8e3d-4fcc71e6db43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AsY17b",
+      "targets": [
+        ["css=.AsY17b", "css:finder"],
+        ["xpath=//body[@id='yDmH0d']/div/div/div[2]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2779902f-e1ce-42b1-9ba2-bb9783fd7057",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "callmeloc0612@gmail.com"
+    }, {
+      "id": "c2b96ade-d173-4b64-b166-72e46330c0c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/div/button/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "041dd856-75d5-497e-9dee-c88c9c6fb5dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd136e60-55d9-40b6-839a-5e28e3203ffd",
+      "comment": "",
+      "command": "click",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d33631-439e-4404-a75d-eb41e0c6d16d",
+      "comment": "",
+      "command": "type",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Locdepzai7a@g"
+    }, {
+      "id": "0212ca52-0f1c-40c6-a6cb-c0f414034ee0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp theo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd766366-aae3-4b8d-970a-5c60a6fd19ea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92497f2b-6e7a-4d10-95c0-9cc0503f13ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[3]/div/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp tục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c647eea-9b5b-4eb3-8261-27a1d1dd02ea",
+    "name": "Module8-4",
+    "commands": [{
+      "id": "d93eb222-0b9e-45ec-93df-44c45dfc9488",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5047ffb-7235-4898-930e-54330bcb9418",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b27fbc9-d754-4735-9863-7d5a8064630f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz6RR4:nth-child(2) > .zwXUkg",
+      "targets": [
+        ["css=.Bz6RR4:nth-child(2) > .zwXUkg", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1767",
+      "windowTimeout": 2000
+    }, {
+      "id": "fd2be801-9f75-4b8a-b23e-f3fcc4ac91d5",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d63ed943-52b3-4c11-8c33-ab18242c3a67",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1767}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c93e9e9-f58f-4257-adc0-db392912c68a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AsY17b",
+      "targets": [
+        ["css=.AsY17b", "css:finder"],
+        ["xpath=//body[@id='yDmH0d']/div/div/div[2]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0fa902-622c-4d34-86bb-7f03b32f4c2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "callmeloc0612@gmail.com"
+    }, {
+      "id": "946f4c06-1b70-4ea2-a85e-cff1507bb7b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/div/button/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e03b5ebd-babb-4c95-a77e-7fce1bc0c67c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6528e55b-98bf-40c4-b981-fe42b113f411",
+      "comment": "",
+      "command": "click",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ab027dc-814f-444e-aa05-a70204d8cd30",
+      "comment": "",
+      "command": "type",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Locdepzai7a@g"
+    }, {
+      "id": "d0a9383d-7948-4076-ab4d-baf2492aa7b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp theo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c7fc2f-4ab4-4566-bf09-b9c9338e09d7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec16a9db-dd21-402a-b580-44ede433dd4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[3]/div/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp tục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fa93e86-987f-44c1-9bc2-eaabe9eacb6f",
+    "name": "Module8-6",
+    "commands": [{
+      "id": "d19fa2a0-9ec6-477c-b67d-9ac92f933c61",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74b0ee84-ca8b-4701-b3e6-fdc2108b225f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97d59f28-5739-4012-a8f5-fde8d8853275",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz6RR4:nth-child(2) > .zwXUkg",
+      "targets": [
+        ["css=.Bz6RR4:nth-child(2) > .zwXUkg", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1767",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7f862b4-9d37-4657-b8d1-e1014fdcd35c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc5d73f8-61f8-4518-a440-ce718b805ad4",
+      "comment": "",
+      "command": "type",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a8f7060-b1af-40de-ac8d-0fc746806fa4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1767}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "696df38c-1f2e-413e-9cd3-f5adef0c4f7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AsY17b",
+      "targets": [
+        ["css=.AsY17b", "css:finder"],
+        ["xpath=//body[@id='yDmH0d']/div/div/div[2]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74d6ba6f-0b96-40aa-ac18-1b0c3be34169",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "callmeloc0612@gmail.com"
+    }, {
+      "id": "2468fed7-6ca9-4e55-92be-e01520ca259f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-RLmnJb", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/div/button/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e86d03d5-047a-4135-8444-a2376fde24d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4238d6b2-f6e6-4cb1-be01-3d8e790bd4fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcbffbcd-ee7a-4903-86bd-22a2884e4148",
+      "comment": "",
+      "command": "type",
+      "target": "name=Passwd",
+      "targets": [
+        ["name=Passwd", "name"],
+        ["css=#password .whsOnd", "css:finder"],
+        ["xpath=//input[@name='Passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Locdepzai7a@g"
+    }, {
+      "id": "9e43c8f0-42c5-4d4f-ab5a-77244165685e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp theo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5d9b277-7abd-4fa3-942a-af03723f1a7d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29794828-411a-4813-8eec-af2fa66b4fdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div[3]/div/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiếp tục')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc034376-56ea-471f-a610-848b9519b728",
+    "name": "Module8-1",
+    "commands": [{
+      "id": "25bf252f-3b34-494b-9554-1db04a3b2d41",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39e01d03-917b-44bf-8ad5-45d85f9c478b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c5294a-9f07-4e6a-bfaf-09636af88b02",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8921f32c-6be1-4c49-bbd7-e6ee4cb2dc0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "(+84) 936 614 892"
+    }, {
+      "id": "d665c44f-3841-4271-8b16-7b793a81438c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec38e8c1-0818-4193-a449-3674b80f6cf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da11a38-deca-4df2-a1ac-210ee6c2ac92",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='062833']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "062833"
+    }, {
+      "id": "3657655e-7c3e-4122-87a4-999565e50fd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f855a9-4a11-43fe-9a8d-6ee2bbb5aab7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.D23dsc",
+      "targets": [],
+      "value": "Locdz123"
+    }, {
+      "id": "64eca4ed-8be4-473c-8290-9163ff766743",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8935b103-7ff4-4bd9-ace1-a5c89e5152a5",
+    "name": "Module8-3",
+    "commands": [{
+      "id": "744a6a83-9c24-42d9-8607-1a1086e25279",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24450a58-ef04-4de9-b479-8fd7e3f4df38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký",
+      "targets": [
+        ["linkText=Đăng ký", "linkText"],
+        ["css=.U3bTnx", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/signup?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cdf234a-53c1-49f8-a6d7-833c6ff72c38",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1307c73b-eb1b-40ad-9996-f64b4887c0ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "(+84) 936 614 892"
+    }, {
+      "id": "25e12058-b56f-4008-8dc9-38276ce3d462",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06d628b1-6aad-4612-8cbf-2d4c1c006d3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff485a77-c27b-49a4-8fa1-1b93590d66ea",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='062833']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "062833"
+    }, {
+      "id": "66cf2b32-2aa8-4de5-bc8e-4a6a57fe68a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8e2efa6c-7b21-4781-997e-a0391d1f9755",
+    "name": "Module1-8",
+    "commands": [{
+      "id": "b43ce515-22c0-4511-93d3-48b09f84b018",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ffecd73-6f3f-4e60-808b-83530c0701e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x846",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68aa8fc6-fb65-475f-b2eb-388630f1d6bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Đăng Nhập",
+      "targets": [
+        ["linkText=Đăng Nhập", "linkText"],
+        ["css=.navbar__link--login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng Nhập')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/header/div/nav/ul/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/login?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng Nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c60d3dc-979a-4f32-9ae8-e77a8e4ea057",
+      "comment": "",
+      "command": "click",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.hww4XZ .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c785cc-5b65-4cdd-9564-9ad522450a84",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "f87da4d9-cced-442d-9712-7276b7cbb7bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0593df-1a2a-4ed3-bae1-cca0bb2a4d8e",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eaecfb3-501d-49ee-9e1c-2eb0ab9671ee",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc"
+    }, {
+      "id": "722ef072-fbe8-4442-b871-53dd2ac1bf85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3291dd65-8d0b-4480-b05a-f51f623f2a49",
+    "name": "Module1-4",
+    "commands": [{
+      "id": "92387327-efaf-420a-8cd4-8fbc13052877",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "096dcd90-877e-4317-9bff-24324f1c6bdb",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "6ccb5e39-cf76-449e-9fec-af2967e320e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "a0118e0d-4f9c-4679-956d-c9a59856f68b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b158df5c-b3cb-4097-81c3-d0370f577231",
+    "name": "Module1-2",
+    "commands": [{
+      "id": "72f8e06d-b396-492a-9c82-b5b198fb3769",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbe13778-d83a-47a8-b623-24d2952056f0",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02gmail.com"
+    }, {
+      "id": "60790b9f-24fa-4841-94bb-76321ec3245e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "ca1efd20-60c0-48a8-98c3-aa4e72779492",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ce1fe1d0-6bfd-47ee-a622-fa0095ef6e44",
+    "name": "Module1-3",
+    "commands": [{
+      "id": "8edcaa0f-f8af-4b24-886f-ee8016a0bc84",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f955f825-405c-4dec-ad3f-e289bc030396",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "loc123456hihi@gmail.com"
+    }, {
+      "id": "6202eb38-1b51-4374-87fd-6c1502a4c30d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "110aecf6-d96a-43ef-8a7a-527ddb0880d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d8577623-bfd2-4743-b23a-8a186d233542",
+    "name": "Module1-5",
+    "commands": [{
+      "id": "8d08a868-0ae6-4572-abe0-f4956103d19d",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d31509-606e-4c11-a3ac-354659fda693",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "098280106"
+    }, {
+      "id": "3549e923-cf5c-4d3a-877d-5ef1c5b0ee2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "021677f7-58f2-4bcc-8e7f-26375f420a2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e56e09a4-e80e-4bd1-8877-3b9f2fb80abf",
+    "name": "Module1-6",
+    "commands": [{
+      "id": "11b21663-908b-4315-a8c2-5a917c05803c",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d252bf0-ecfb-41f2-a2c8-ebf9c2caf1f0",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801065"
+    }, {
+      "id": "44d89450-38c4-44aa-b265-35d35da8e3f9",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "6c0ddee7-6749-4a75-b9e8-e128895f5eb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0334b141-5daa-427f-a585-cd899b5edc73",
+    "name": "Module2-b",
+    "commands": [{
+      "id": "f747f714-6fb9-4613-8160-45e71ad72fc4",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45eb36d6-e129-480c-9f51-6253e60973c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "9a245308-b14d-4eb7-bc10-6c2ff33983c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82b4e658-7d79-40f1-8af5-e69655d02a65",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "f19ea995-7668-4ffe-8068-13ef86d1c881",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0650a8b7-6740-433c-8738-a44f2bfe4885",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "fabbf700-0a4a-48fc-a6fa-3cec5c4e048f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "dafd3809-8e16-482c-a9c3-8bcd415d129c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.f9fV8g",
+      "targets": [
+        ["css=.f9fV8g", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "262,46.79998779296875"
+    }, {
+      "id": "189581e5-e9a5-486b-8714-964619e8082e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c7dgix",
+      "targets": [
+        ["css=.c7dgix", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d42ca3-a8c9-4d2b-a76e-74f587d68254",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "860b49b9-fc76-493f-b43f-d046fcff2bc6",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/forgot_password/?code=KWN32MCDiDlvsm6coidyHJ2yjEYrJsnlOkcMd1mPo5E%3D&email=locvnt02%40gmail.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69ce179a-3df1-4957-8cfd-283ca88876e4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Loc123123"
+    }, {
+      "id": "4f49e69d-2cb7-4549-9586-622e307dccdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d11a7c7a-4954-4505-94f7-0e2825e3fcd2",
+    "name": "Module2-1",
+    "commands": [{
+      "id": "ba3bedb5-3a64-47d0-baf0-e574a5534087",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c84233c7-66e2-49f9-923a-27a2e4a34b13",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "ffd79505-c7dc-4b8f-b3a7-4f9228a8bed2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31464834-6029-4cfa-a3a4-77bcac9b590c",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "b70c25e4-cf16-458a-8755-fbfbd60a5bfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df21d48-2848-4bdc-afa6-b32f807d9704",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "70fdd6ba-0470-4410-bb6b-6bc0cd035c5b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "811ecd33-d02c-486b-af34-6ef93c61861f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "fc08a59c-6bcb-4fc0-89c3-6460569e89a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a145856c-c329-4d55-a49d-f13128265f32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e89f07-d654-4055-b875-5fe4df185f91",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979302"
+    }, {
+      "id": "b23ccd04-f09a-46a2-ae7b-8bd17d0377ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f766dc56-194a-4953-8d72-80e9de35cf49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef7da14-8b4c-493a-8e6e-fdaa204de122",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "336393d5-c6ad-4433-9096-e39cfcc68d5f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "7418386e-e207-4e5a-a0e3-54ea1c02419b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05183773-05b4-46a4-8ad4-a42753d70b09",
+    "name": "Module2-2",
+    "commands": [{
+      "id": "650ee261-3708-4e61-8bb5-8cc06d17551c",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70d6bf52-1b9d-4e99-85ba-25ca639261a5",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "bd498ff9-8a3f-46d6-bab6-abf65cde26c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b65a7538-6010-419c-bf0c-f9a310b140c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "38651126-2e63-44c4-a8db-9b15d6f60c6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20f5e6f-b88f-48fb-a13d-787644eb34bf",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "c7627635-cc6d-439b-9912-483606d3daa9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "e8fe075d-cb9a-414b-b9a7-2b3ff4eee1c0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "41802257-2d07-4472-956e-e7b34c840128",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f48e6b2-d9a5-4fd4-9781-245df5dbfba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "862c628c-99d4-40e5-98e4-1c90fd92649b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979302"
+    }, {
+      "id": "b1995e66-96a9-4062-a50c-e977adbffecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bc6789a-1005-4c9e-9746-271e33fafcd7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb60f47a-eb48-4c92-a78f-ddccc4c4cc7f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99a7b5b-ee9d-4000-8253-f3890012751e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "44e29db9-ccfb-46c5-ab35-943717774c11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ef8e09d4-91ca-4506-a200-5720dff769a6",
+    "name": "Module2-4",
+    "commands": [{
+      "id": "f38a772f-eee6-4a24-8a2b-7668a6648a40",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cc1b0e6-5bc2-4c1d-9953-b12fdfd572d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "42a43669-f8ee-40b8-b153-05d03f7702c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13f43833-658c-43a1-8f5c-64800dfb1320",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "7c00791b-4eed-4f2f-946b-ea33565b2ac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "946923c6-a861-4460-adc0-16bf7f3a01bb",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "b3da5a6d-aca9-43cc-b032-f26119cd3da7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "a9bd7433-d587-432b-a863-d375b12e12fd",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "04814ff1-09d6-4404-9ee7-cd9135509b7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de3f9f36-ffa5-4435-bc3c-a03655b62dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e53d719b-b565-484d-b381-e4b12464b48e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979301"
+    }, {
+      "id": "c6db4e51-5c53-438d-8e7e-ac4821b584f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "738f77fa-213f-4f4a-bbf0-fb568996dba4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979303"
+    }, {
+      "id": "4a14363e-d79b-4797-82fb-f0636575678c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f1e93975-405e-4812-8a9e-6f3092916463",
+    "name": "Module2-5",
+    "commands": [{
+      "id": "bb43b277-bde3-4f69-bfaf-15e49bca520b",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b2149bf-afb5-495d-aa16-7cabde98ed6e",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "830e47d5-2f42-4946-a1f9-b44e3334be91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "befc5649-379b-4ad6-a134-c4b769ae1b13",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "10ba909f-170e-4bcf-b13a-8cfd4ddb11a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95777f8a-c495-4194-aab2-9bee61d59950",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "64430517-c1d5-4987-a8e9-f5a834cc7009",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "72785bf8-9b4e-4c33-bfdd-2fc7770ec04c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "ed18873f-9a7d-4a45-bf97-7ff50041834c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dda0ada-fe99-4c0e-bd99-723172f7eb05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2729346-afb1-420b-96ca-b421008a63dd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979301"
+    }, {
+      "id": "5318dfe6-0003-47d2-8974-311bf307949d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65ec4a71-533d-4245-ad89-41b26dfc2c2a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979303"
+    }, {
+      "id": "bdfad525-1ff5-458b-9cd6-f7cbf4047fa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312fe8a3-8f2b-4c0e-a701-27d61c694da0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979304"
+    }, {
+      "id": "0a246399-67dd-4f67-8de5-fc8d44be03dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c08f98-114e-49e2-a4ea-e5e42ebec65f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979305"
+    }, {
+      "id": "4e500288-151d-4d4a-92a8-1fa7faf3c9bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b83b9e3e-5833-4473-a50e-9140b64366d1",
+    "name": "Module2-6",
+    "commands": [{
+      "id": "35c0a98e-9a62-4931-825a-4667cec57bf2",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de6f7dab-235f-433c-b9c2-40b70841a63c",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "d7ee5a24-c393-4463-bd9f-a334338e96b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0783d2b2-3770-4beb-9442-6ceac2c4152a",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "0e7e6aa1-f004-48b9-ab0e-670b13713f23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "739944c6-44db-4f52-9909-ae8e1d978720",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "e8dca431-52ba-4b5a-8032-e7ed3f16f9f8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "f3593f48-4fa9-4a39-8162-d81a57902c4f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "f729586b-a4d2-4f6a-b937-8662fd685792",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "614e8de5-8783-484c-878e-c6133243ff65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b45cea-ebf5-4ea0-bd71-ab2b50b9e9e6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979301"
+    }, {
+      "id": "b7031597-6078-45aa-a76b-366777d07a68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24eec210-502b-4202-83b9-fd730f9d4d26",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979302"
+    }, {
+      "id": "cde6c2cf-7faf-4925-ad3e-9f2aca689ad4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "077b18b2-95ff-4fd0-98b5-7c628672e81d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae03389-d6e0-4334-bae7-2f77e7140630",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8cec150-a352-4c18-ad4b-b04590f96370",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "7b240784-d9f8-463b-b26c-c7c33215f4ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0003a079-9fb5-4856-b0e5-66f0ba665a88",
+    "name": "Module2-7",
+    "commands": [{
+      "id": "93021241-5e0d-4edf-bf8b-5bcf0bd38609",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93459c26-9977-4b35-9813-928930a23830",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "0760345b-3fd1-4347-a869-7acc2b117255",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu",
+      "targets": [
+        ["linkText=Quên mật khẩu", "linkText"],
+        ["css=.hZ5QQO:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/reset')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e02550-d263-4d22-8fd6-c856ae0b1898",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneOrEmail",
+      "targets": [
+        ["name=phoneOrEmail", "name"],
+        ["css=.Btdmxp", "css:finder"],
+        ["xpath=//input[@name='phoneOrEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "6dda5e0f-653d-47de-bb33-b4ac69358bde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4848e75b-019c-48f3-b0b3-41f2ba3f6a33",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "67d12467-c005-435f-b808-b6d38d6636e4",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "8398783c-9554-47b6-9dd8-cdb24cfbe408",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "32,33.79998779296875"
+    }, {
+      "id": "b2d11048-9a3b-43af-8a41-2eb63cef159b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c3ANgb",
+      "targets": [
+        ["css=.c3ANgb", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/div[2]/div/div[2]/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c097f764-62b2-4ace-ac07-c4b2b72340d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skr1Pu",
+      "targets": [
+        ["css=.skr1Pu", "css:finder"],
+        ["xpath=//div[@id='modal']/aside/div/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Gửi đến Zalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "262bd269-bb06-415c-bd13-ed4c6e5c20d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979301"
+    }, {
+      "id": "a4f48cc2-bab1-4bd8-9515-fa94bf2050d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91754fb3-3a16-47f0-b308-6f8e5c228f5a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979303"
+    }, {
+      "id": "bbc5ecfb-8cad-42d7-b364-88bd998115be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3e76cb-79a6-4fdc-a7f0-190922f6da4d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979304"
+    }, {
+      "id": "91886165-1f07-450d-83c0-221d4aef1d35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3903e94-5052-4532-be14-ab40869bc69b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979305"
+    }, {
+      "id": "a9ee8599-55c6-4615-a134-795c28d6b574",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17fcfbaa-e2e5-40c2-909a-24911b05544e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979306"
+    }, {
+      "id": "a17a7775-4a7b-4e77-a1c8-f22048384c9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b38d5f66-0a20-4542-9e28-dc6dc84c2000",
+      "comment": "",
+      "command": "type",
+      "target": "css=.aqfdUX",
+      "targets": [
+        ["css=.aqfdUX", "css:finder"],
+        ["xpath=//input[@value='979302']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "979307"
+    }, {
+      "id": "e08b209b-8336-4a29-9d14-d837cf27592a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4299478-38d0-47ba-90a0-fbe64cbfc2cb",
+    "name": "Module3-2",
+    "commands": [{
+      "id": "c5324559-a14d-4c3d-97ba-1921003c6abe",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c8205a9-6aff-4485-94b3-748a8b6894bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "6bb56f37-ed8a-4a50-9385-9d176917330e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "f9f183b5-e79e-4813-ac2f-f7d3b1496dbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f25b257-952f-4bbc-a6b7-414b519cb264",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9bb4f19-535a-4e56-9bbe-eb70d6874f13",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuộtmáytính"
+    }, {
+      "id": "ddd42809-d11c-4659-838f-d766eb4af8ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0021557d-9e1e-457e-992a-783e35fc44ee",
+    "name": "Module3-3",
+    "commands": [{
+      "id": "5232c3ea-f92e-4d34-95d4-1357023476b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9893bc45-6b26-41f6-96cb-2dbdfa5e20e1",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "a2650ccf-830e-4775-b5fa-f6c1137fd8c2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "ddb7f193-3a7b-4376-b055-034922da426e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf5ee1c-d789-4c35-965b-73e1f2023781",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b03c782b-15ac-4664-a3cf-3f3aedc07072",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuot may tinh"
+    }, {
+      "id": "23b09e82-f611-460e-b2f0-fcea81b9fda0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64ef5145-de53-42b4-bbd0-878bf82633e7",
+    "name": "Module3-4",
+    "commands": [{
+      "id": "1d3f42f5-a6ce-412b-9b59-72a99c9ee108",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e44d5be-e7bb-4e04-b8d6-c6002936f7bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "6f7ea0bb-9b05-4c69-9b0c-519e31cc7316",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "35fda379-bad7-4e0b-b3fa-c70e8ba75f0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d612da0b-73aa-4ef6-819f-f8990bae051b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "702d5f9a-db69-4882-859e-e638b2d11034",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuotmaytinh"
+    }, {
+      "id": "08543139-2b20-4878-92fd-8809fa1f86e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "03edd401-6f76-4140-a5a5-ea53b89708f3",
+    "name": "Module3-5",
+    "commands": [{
+      "id": "87e5c96d-593e-4b09-aed2-7a45ac6ee8ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "045ac78f-78bf-4a79-bfe0-7fd5c783d785",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "64feef33-6fec-458a-99a1-bb1ae95e9e63",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "b2393978-a160-4cd7-a237-f00b311619b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ba35f3-5ce3-432f-8ce2-dbb077fe3ce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94dd3c3-3964-4d7d-8637-d96e7c489eb9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "computer mouse"
+    }, {
+      "id": "4275a95f-5473-4179-b5b1-8fb272911a2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf6eaa1f-76e2-4dec-80cf-51f70c7dcf00",
+    "name": "Module3-6",
+    "commands": [{
+      "id": "059c02c8-70f8-461e-888e-e8d055622474",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "724f4628-006a-4bdd-bc66-1085be015f06",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "0da1b421-6ba3-4184-a02a-b80d47ab47d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "e8fc872b-09c1-4900-8952-6d966b30048f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd723e8-06aa-4fb3-bfba-3aadbfd5994a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4dab9a-7bcf-4bbd-89ca-e331b62ec1d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "computermouse"
+    }, {
+      "id": "0dc940be-b0cc-440e-bf87-52776392a30a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5334d520-cb13-4404-97af-70d4cf430d0f",
+    "name": "Module4-2",
+    "commands": [{
+      "id": "8455415f-e79b-4ea9-82d8-aa0b078c9a9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21bf3d30-bbb6-401f-afa7-8ee96f677248",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "locvnt02@gmail.com"
+    }, {
+      "id": "ac8e9ad4-2688-487d-ba9a-68c2d6f0928e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "8c37d043-579f-4ee3-8c46-7dc533f81f5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ce9792-2130-4b65-b6a9-a7b5220976ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b32406-7a4c-42a7-a187-dd81c07b19dd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột máy tính"
+    }, {
+      "id": "45d62d74-2900-4286-8ddd-2a519bcd59e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "193cc744-259e-433e-9dd1-e895c7aa14f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-2-4:nth-child(1) .ifPo8g",
+      "targets": [
+        ["css=.col-xs-2-4:nth-child(1) .ifPo8g", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/ul/li/a/div/div", "xpath:idRelative"],
+        ["xpath=//section/ul/li/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c7bbaf2-6d52-4ee3-b8fd-10eb8fae80ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--l:nth-child(2)",
+      "targets": [
+        ["css=.btn--l:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[5]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e953c41-19a0-4159-9040-c9f9787a021a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-plus-sign",
+      "targets": [
+        ["css=.icon-plus-sign", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b337a83-5cd8-492e-9bb3-8b775a4a4d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sApkZm:nth-child(1)",
+      "targets": [
+        ["css=.sApkZm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[4]/div/div[2]/div/section/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'G2 - Có âm - LED')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6692fdb6-6f10-47cb-a72d-a0363404b739",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--l:nth-child(2)",
+      "targets": [
+        ["css=.btn--l:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/section[2]/div/div[5]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fe7ca62-0138-4623-9143-e777bc6a09d8",
+    "name": "Module6-2",
+    "commands": [{
+      "id": "076187cc-73ff-44f3-b94e-31d6d52f05c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "931485e4-8dcf-41c9-9f16-b6841914e77c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng Nhập",
+      "targets": [
+        ["linkText=Đăng Nhập", "linkText"],
+        ["css=.navbar__link--login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng Nhập')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/header/div/nav/ul/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/buyer/login?next=https%3A%2F%2Fshopee.vn%2F')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng Nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05af2f8-d53f-4443-a113-2fc62bad8ebf",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "fec8d26e-7b08-4055-a97c-ad3e66b3f4b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "88e60199-34e3-402f-8536-252c459d6fa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeda4158-f3a8-471d-87a2-332c52d68a61",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.stardust-carousel__item:nth-child(2) .PBMrHv",
+      "targets": [
+        ["css=.stardust-carousel__item:nth-child(2) .PBMrHv", "css:finder"],
+        ["xpath=//img[@alt='Banner']", "xpath:img"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/ul/li[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8bac46-a217-4280-a31d-4b53f39fb0fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9980d67-f601-492e-a16b-f5c93e9aec12",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột máy tính']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột máy tính"
+    }]
+  }, {
+    "id": "8b27fc60-a077-44e3-8473-2c8dee65ed6c",
+    "name": "Module7-1",
+    "commands": [{
+      "id": "a46b1a7a-15e1-49a3-9cc7-20699680d3f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f847f669-1d28-4521-82c1-487ad0feb3fa",
+      "comment": "",
+      "command": "type",
+      "target": "name=loginKey",
+      "targets": [
+        ["name=loginKey", "name"],
+        ["css=.dhe78t > .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='loginKey']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0982801068"
+    }, {
+      "id": "80803332-053e-4acc-89b9-e0976d488f6c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.biFZbP .Btdmxp", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "VuNguyenTienLoc3"
+    }, {
+      "id": "c5f4bd63-f284-47e8-900f-567758c0929b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DYKctS",
+      "targets": [
+        ["css=.DYKctS", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3debbd6d-bd93-41ad-bbcf-7bc9b292e36e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "781af1b8-e3c3-44be-979e-9f76e82951dd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='chuột']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/header/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chuột"
+    }, {
+      "id": "32080c37-72a0-4a06-b799-57b12c910acd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/header/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "096fc890-f41b-4336-8a38-823818a6fc90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sort-price-select",
+      "targets": [
+        ["css=.sort-price-select", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div/div[2]/section/fieldset/div[2]/section[2]/div/button", "xpath:idRelative"],
+        ["xpath=//section[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giá: Thấp đến Cao')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b10e507-e5a5-4838-9bda-8fac7cdaefab",
+    "name": "Module1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d86fd3d0-0941-4db5-952f-42f2b3c242a9", "4e6ad169-27ab-4bb2-9478-7d7740c1b257", "b158df5c-b3cb-4097-81c3-d0370f577231", "ce1fe1d0-6bfd-47ee-a622-fa0095ef6e44", "3291dd65-8d0b-4480-b05a-f51f623f2a49", "d8577623-bfd2-4743-b23a-8a186d233542", "e56e09a4-e80e-4bd1-8877-3b9f2fb80abf", "8e2efa6c-7b21-4781-997e-a0391d1f9755"]
+  }, {
+    "id": "8be6dbb7-1367-451d-8ef6-8da50948acf0",
+    "name": "Module2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7d476809-567e-4332-924c-3b4d8a10d424", "d0899fe6-2d8c-4a9a-b6b2-395d3a466571", "05183773-05b4-46a4-8ad4-a42753d70b09", "d11a7c7a-4954-4505-94f7-0e2825e3fcd2", "ef8e09d4-91ca-4506-a200-5720dff769a6", "f1e93975-405e-4812-8a9e-6f3092916463", "b83b9e3e-5833-4473-a50e-9140b64366d1", "0003a079-9fb5-4856-b0e5-66f0ba665a88", "0334b141-5daa-427f-a585-cd899b5edc73"]
+  }, {
+    "id": "8381d3c8-4814-4d0d-b453-775e3b6bf96a",
+    "name": "Module8",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["767a6f3c-1923-498d-b73b-6c33f6744db1", "5d5a1920-9b76-40d9-b786-a546a26e30fa", "6fa93e86-987f-44c1-9bc2-eaabe9eacb6f", "9c647eea-9b5b-4eb3-8261-27a1d1dd02ea", "8935b103-7ff4-4bd9-ace1-a5c89e5152a5", "bc034376-56ea-471f-a610-848b9519b728"]
+  }, {
+    "id": "a2b8c3b7-91a1-425e-8ded-b5067a5fb5af",
+    "name": "Module7",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["187d1ec1-d4aa-4bbc-abcd-f5d346b16196", "8b27fc60-a077-44e3-8473-2c8dee65ed6c"]
+  }, {
+    "id": "908b6581-c918-478c-88dd-f92a78f82d7e",
+    "name": "Module6",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c46bd1b-2f22-4b6c-bea8-c7e23944d0fb", "6fe7ca62-0138-4623-9143-e777bc6a09d8"]
+  }, {
+    "id": "4ba5c483-8408-458c-83cc-8248d6e6b4ea",
+    "name": "Module5",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ca2d469-40e7-4017-9fdd-e3bd0d43ff5a"]
+  }, {
+    "id": "f9735934-5f94-4933-acb1-de86464b5cfc",
+    "name": "Module4",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a16a468-1cb5-4826-aef2-0c547591b759", "7ba7d2e3-8bcb-4015-b986-c5f728cb6243", "d8577623-bfd2-4743-b23a-8a186d233542", "5334d520-cb13-4404-97af-70d4cf430d0f"]
+  }, {
+    "id": "10af652e-f6eb-407a-860b-bdb3e30db54b",
+    "name": "Module3",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74e8c5b7-1938-47b4-828d-9b36c04e060a", "e4299478-38d0-47ba-90a0-fbe64cbfc2cb", "0021557d-9e1e-457e-992a-783e35fc44ee", "64ef5145-de53-42b4-bbd0-878bf82633e7", "03edd401-6f76-4140-a5a5-ea53b89708f3", "cf6eaa1f-76e2-4dec-80cf-51f70c7dcf00"]
+  }],
+  "urls": ["https://shopee.vn/"],
+  "plugins": []
+}
